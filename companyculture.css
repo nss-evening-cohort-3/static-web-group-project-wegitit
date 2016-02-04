@@ -1,0 +1,28 @@
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+body {
+	width: 100%;
+	background-color: #F3F3F3;
+	margin: 0;
+	padding: 0;
+}
+
+.mainhead {
+	padding-left: 15px;
+}
+.smallfont {
+	padding-left: 25px;
+	font-size: 15px;
+}
+
+.defined {
+	padding-left: 25px;
+	font-size: 15px 
+}
+
+article {
+	padding-left: 25px;
+}
