@@ -3,24 +3,27 @@
 @import url(https://fonts.googleapis.com/css?family=Lobster|Libre+Baskerville);
 /*font-family: 'Libre Baskerville', serif;*/
 
-img {
-    max-width: 100%;
-    height: auto;
-    width: auto\9;
-}
+/*****header section*****/
 body {
 	width: 100%;
 	background-color: #F3F3F3;
 	margin: 0;
 	padding: 0;
 }
+img {
+    max-width: 100%;
+    height: auto;
+    position: fixed;
+}
+
 header {
 	font-family: 'Libre Baskerville', serif;
 }
 .mainhead {
 	padding-left: 15px;
 }
-.smallfont {
+/*****make definition small*****/
+.smallfont { 
 	padding-left: 25px;
 	font-size: 15px;
 }
@@ -30,15 +33,19 @@ header {
 	font-size: 15px 
 }
 
+/*****squares start*****/
 .culture {
 	border: black 2px;
 	font-family: 'Libre Baskerville', serif;
+	margin: 10px;
+	z-index: -1; position:relative
 }
 .aboutculture {
 	background-color: white;
 	padding: 2%;
 	margin: 0% 25% 5% 25%;
 	box-shadow: 2px 2px 10px black;
+	z-index: -1; position:relative
 }
 
 .core{
@@ -46,6 +53,7 @@ header {
 	padding: 2%;
 	margin: 0% 25% 5% 25%;
 	box-shadow: 2px 2px 10px black;
+	z-index: -1; position:relative
 }
 
 .perks{
@@ -53,6 +61,7 @@ header {
 	padding: 2%;
 	margin: 0% 25% 5% 25%;
 	box-shadow: 2px 2px 10px black;
+	z-index: -1; position:relative
 }
 
 article {
@@ -62,3 +71,4 @@ article {
 ul {
 	list-style: none;
 }
+/****Squares end ****/
