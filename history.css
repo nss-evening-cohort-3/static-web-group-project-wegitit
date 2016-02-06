@@ -1,15 +1,4 @@
-body {
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  font-family: "Libre Baskerville", serif;
-  text-align: center;
-  background-color: #fff;
-  background-image: url("starry.jpg");
-  background-size: auto 750px;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
+/* NAV STYLING */
 
 li {
   list-style-type: none;
@@ -28,20 +17,18 @@ nav li {
   padding: 12px 8px 12px 8px;
 } 
 
+nav li a:hover {
+  color: #D5ACFC;
+  position: relative;
+  top: 1px;
+  left: 1px;
+}
+
 header {
   background-color: black;
   font-family: "Libre Baskerville", serif;
   margin: auto;
   padding: 10px;
-}
-
-/*Sylvia added this one*/
-img {
-  max-width: 100%;
-}
-
-.specialText {
-  text-align: left;
 }
 
 header h1 a {
@@ -51,26 +38,60 @@ header h1 a {
   display: inline-block;
 }
 
+
+/* BODY STYLING */
+
+body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: "Libre Baskerville", serif;
+  background-color: #fff;
+  text-align: center;
+  background-image: url("starry.jpg");
+  background-size: auto 750px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 article {
   background-color: white;
   padding: 2%;
-  margin: 10% 25% 5% 25%;
+  margin: 5% 20% 5% 20%;
   box-shadow: 2px 2px 10px black;
 }
 
 footer { 
   position: relative; 
   width: 100%; 
-  bottom: 0; 
-  z-index: 100; 
+  bottom: 0;  
   color: #fff;
+  font-size: .75em;
+}
+
+/* media queries */
+
+@media (max-width: 480px) {
+  body {
+    font-size: .8em;
+  }
+  article {
+    margin: 5%;
+    padding: auto;
+  }
+}
+
+/*Sylvia Added part*/
+.special {
+  text-align: left;
+}
+
+img {
+  max-width: 100%;
 }
 
 
 
-/* float clearfix*/
-.group:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+
+
+
