@@ -1,0 +1,76 @@
+body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: "Libre Baskerville", serif;
+  text-align: center;
+  background-color: #fff;
+  background-image: url("starry.jpg");
+  background-size: auto 750px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  text-align: right;
+}
+
+li a {
+  padding: 5%;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav li {
+  font-size: .85em;
+  padding: 12px 8px 12px 8px;
+} 
+
+header {
+  background-color: black;
+  font-family: "Libre Baskerville", serif;
+  margin: auto;
+  padding: 10px;
+}
+
+/*Sylvia added this one*/
+img {
+  max-width: 100%;
+}
+
+.specialText {
+  text-align: left;
+}
+
+header h1 a {
+  color: #fff;
+  float: left;
+  text-decoration: none;
+  display: inline-block;
+}
+
+article {
+  background-color: white;
+  padding: 2%;
+  margin: 10% 25% 5% 25%;
+  box-shadow: 2px 2px 10px black;
+}
+
+footer { 
+  position: relative; 
+  width: 100%; 
+  bottom: 0; 
+  z-index: 100; 
+  color: #fff;
+}
+
+
+
+/* float clearfix*/
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
