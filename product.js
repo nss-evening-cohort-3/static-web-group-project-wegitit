@@ -35,7 +35,7 @@ goals.push(safari);
 var childrensBook = {
   name: "Publish a Children's Book",
   imageUrl: "http://cdi.uvm.edu/archives/collections/prospect.gif",
-  description: "There's no point being grown-up if you can't be childish sometimes. We will guide you through the process of publishing your first childrens book. Remember when",
+  description: "There's no point being grown-up if you can't be childish sometimes. We will guide you through the process of publishing your first childrens book.",
   price: "$20 per hour",
   buttonLink: "index.html",
   buttonText: "read more"
@@ -55,7 +55,7 @@ goals.push(softwareKeyNoteSpeaker);
 
 
 var softwareOlympics = {
-  name: "Dream Offering 2",
+  name: "Olympic Trip",
   imageUrl: "http://media.mlive.com/business/detroit_impact/photo/11432645-small.jpg",
   description: "It's a long, arduous path, but it will be nothing short of worth it if you succeed. If you're ready to commit years to a sport and to yourself, you may have the mindset",
   price: "$120 (per hour)",
@@ -80,10 +80,19 @@ var musician = {
   imageUrl: "https://s-media-cache-ak0.pinimg.com/236x/b2/1b/b4/b21bb494a8abed7cf7704b002a7ab2d1.jpg",
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at ante. Mauris eleifend, quam a vulputate dictum, massa quam dapibus leo, eget vulputate orci purus ut lorem.",
   price: "$150 (per hour)",
-  buttonLink: "index.html",
-  buttonText: "make appointment"
+  buttonLink: "read more"
 };
 goals.push(musician);
+
+var skiingTheAlps = {
+  name: "Skiing The Alps",
+  imageUrl: "https://pbs.twimg.com/profile_images/669238564543041536/F8oJKPUG.jpg",
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at ante. Mauris eleifend, quam a vulputate dictum, massa quam dapibus leo.",
+  price: "$250 (per hour)",
+  buttonLink: "index.html",
+  buttonText: "read more"
+};
+goals.push(skiingTheAlps);
 
 var goalElements = document.getElementsByClassName("javascript")[0];
 
