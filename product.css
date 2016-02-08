@@ -70,10 +70,7 @@ article {
   width: 25%;
   float: left;
 }
-.button{
-  background-color: black
-  color: white;
-}
+
 
 footer {
   position: fixed; 
@@ -82,3 +79,4 @@ footer {
   color: #fff;
   font-size: .75em;
 }
+
