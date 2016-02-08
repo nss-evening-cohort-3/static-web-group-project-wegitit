@@ -68,7 +68,6 @@ footer {
   color: #fff;
   font-size: .75em;
 }
-
 /* media queries */
 
 @media (max-width: 480px) {
@@ -89,9 +88,4 @@ footer {
 img {
   max-width: 100%;
 }
-
-
-
-
-
 
