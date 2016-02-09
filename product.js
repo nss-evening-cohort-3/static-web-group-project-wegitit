@@ -20,7 +20,6 @@ var dream6 = {
  buttonText: "read more"
 };
 goals.push(dream6);
-
 // Abbie
 var safari = {
   name: "Go on an African Safari",
