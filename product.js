@@ -107,7 +107,6 @@ for ( i = 0; i < goals.length ; i++){
   var h4 = "<h4>" + currentGoal.price + "</h4>";
   var button = "<button><a href='" + currentGoal.buttonLink + "'>" + currentGoal.buttonText + "</a></button></section></article>"
 
-
-		goalElements.innerHTML += article + section + image + h3 + description + h4 + button;
+    goalElements.innerHTML += article + section + image + h3 + description + h4 + button;
 
 }
