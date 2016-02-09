@@ -1,9 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Lobster);
-/*font-family: 'Lobster', cursive;*/
-@import url(https://fonts.googleapis.com/css?family=Lobster|Libre+Baskerville);
-/*font-family: 'Libre Baskerville', serif;*/
-
-
 /* NAV STYLING */
 
 li {
@@ -18,16 +12,6 @@ li a {
   text-decoration: none;
 }
 
-header{
-/*	position: fixed;
-	width: 100%;*/
-	background-color: black;
-	color: white;
-	font-family: "Libre Baskerville", serif;
-	margin: auto;
-	padding: 10px;
-}
-
 nav li {
   font-size: .85em;
   padding: 12px 8px 12px 8px;
@@ -40,15 +24,20 @@ nav li a:hover {
   left: 1px;
 }
 
+header {
+  background-color: black;
+  font-family: "Libre Baskerville", serif;
+  margin: auto;
+  padding: 10px;
+}
+
 header h1 a {
   color: #fff;
   float: left;
   text-decoration: none;
   display: inline-block;
 }
-h2 {
-	text-size:;
-}
+
 
 /* BODY STYLING */
 
@@ -79,7 +68,6 @@ footer {
   color: #fff;
   font-size: .75em;
 }
-
 /* media queries */
 
 @media (max-width: 480px) {
@@ -90,3 +78,14 @@ footer {
     margin: 5%;
     padding: auto;
   }
+}
+
+/*Sylvia Added part*/
+.special {
+  text-align: left;
+}
+
+img {
+  max-width: 100%;
+}
+
